@@ -11,6 +11,18 @@ namespace BasicStructures
         static void Main(string[] args)
         {
         }
+
+
+        static void p(Node h)
+        {
+            Node t = h;
+            while(t!=null)
+            {
+                Console.Write("{0}->",t);
+            }
+            Console.WriteLine();
+        }
+
     }
 
 
